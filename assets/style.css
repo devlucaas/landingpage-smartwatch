@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.menu ul li{
+    display: flex;
+    float: left;
+    font-size: 18px;
+    padding: 10px 40px 0px 0px;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px black;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+.menu ul li:hover{
+    color: #c2fe07;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 3px 3px black;
+    cursor: pointer;
+}
+
+.logo1{
+    color: #c2fe07;
+}
+
+.logo2{
+    color: white;
+    text-shadow: 2px 3px 3px black;
+}
+
+.conteudo-inicial{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(17,17,17,0.6), rgba(20,20,20, 1)), url(img/relogiobanner.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.conteudo-meio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.informations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-banner-inicio {
+    width: 530px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-shadow: 5px 5px 3px black;
+    margin-top: 50px;
+}
+
+.text-banner-inicio p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.text-banner-inicio i{
+    display: block;
+    color: white;
+}
+
+.titulo{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+#first-word{
+    color: #c2fe07;
+    transition: 1s;
+}
+
+#first-word:hover{
+    color: orange;
+    text-shadow: 3px 3px 2px black;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.icons{
+    color: #c2fe07;
+    width: 10px;
+    background-color:white;
+}
+
+.img-banner img{
+    border-radius: 100%;
+    transition: 1s;
+}
+
+.img-banner  img:hover {
+    transform: scale(1.1);
+}
+
+.beneficios{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+.icon1, .icon2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    width: 150px;
+    margin: 50px 50px 0px 3px;
+}
+
+.icon1 img,.icon2 img {
+    width: 45px;
+    margin-bottom: 15px;
+}
+
+.icon1 h4, .icon2 h4{
+    font-weight: lighter;
+    font-size: 12px;
+    color: whitesmoke;
+    text-shadow: 5px 5px 3px black;
+}
+
+.core-features{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-features{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.titulo-features b{
+    color: #c2fe07;
+    text-shadow: 2px 2px 3px black;
+    transition: 1s;
+}
+
+.titulo-features b:hover{
+    color: orange;
+    text-shadow: 2px 2px 3px black;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature{
+    width: 200px;
+    height: auto;
+    border: 2.5px solid #7c7c7c;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 50px;
+}
+
+.features h1{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.features p{
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.banner-meio{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 101vh;
+    background-color: #f5f5f5;
+}
+
+.titulo-banner-meio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    margin: 0px 100px;
+}
+
+.titulo-banner-meio h1{
+    font-size: 24px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.titulo-banner-meio h4{
+    font-size: 16px;
+}
+
+.titulo-banner-meio b{
+    color: #c2fe07;
+    text-shadow: 2px 2px 3px black;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.titulo-banner-meio b:hover{
+    color: orange;
+    text-shadow: 2px 2px 3px black;
+    letter-spacing: 1px;
+}
+
+.img-banner-meio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+
+.img-banner-meio img{
+    height: 530px;
+}
+
+.img-banner-meio:hover{
+    transform: scale(1.1);
+}
+
+.informations-banner-meio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.caracteristicas-relogio{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+
+.caracteristicas-relogio h5{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.exercicio img{
+    width: 80px;
+    transition: 1s;
+}
+
+.exercicio img:hover{
+    transform: scale(1.15);
+}
+
+.ultimo-conteudo{
+    height: 100vh;
+}
+
+.mais-utilidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.mais-utilidades h1{
+    padding: 30px;
+    font-size: 28px;
+}
+
+.mais-utilidades h1 b{
+    color: #c2fe07;    
+    text-shadow: 2px 2px 3px black;
+    transition: 1s;
+}
+
+.mais-utilidades h1 b:hover{
+    color: orange;
+    text-shadow: 2px 2px 3px black;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.img-utilidades{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.img-utilidades img{
+    padding: 30px 0px 40px 0px;
+    transition: 1s;
+}
+
+.img-utilidades img:hover{
+    transform: scale(1.05);
+}
+
+.widget{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.conteudo-final{
+    padding-top: 100px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #7c7c7c;
+}
+
+.dados{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.dados img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.divs-footer{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.divs-footer h3{
+    padding-bottom: 15px;
+}
+.divs-footer ul li{
+    margin: 10px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #7c7c7c;
+    padding: 10px 0px 10px 20px;
+    border-top: 1px solid black;
+}
+
+.redes-sociais img{
+    width: 40px;
+    margin-right: 10px;
+}
