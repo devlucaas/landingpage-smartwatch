@@ -7,6 +7,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html{
+    font-size:62.5%
+}
+
+body {
+    font-size: 1.6rem;
+}
+
 .menu-content {
     display: flex;
     justify-content: space-around;
@@ -17,7 +25,7 @@
 .menu ul li{
     display: flex;
     float: left;
-    font-size: 18px;
+    font-size: 1.8rem;
     padding: 10px 40px 0px 0px;
     color: aliceblue;
     text-shadow: 1px 1px 1px black;
@@ -30,7 +38,7 @@
 }
 
 .logo {
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: bold;
     text-shadow: 2px 3px 3px black;
     cursor: pointer;
@@ -69,7 +77,7 @@
 
 .text-banner-inicio {
     width: 530px;
-    font-size: 25px;
+    font-size: 2.5rem;
     text-transform: uppercase;
     color: whitesmoke;
     text-shadow: 5px 5px 3px black;
@@ -77,7 +85,7 @@
 }
 
 .text-banner-inicio p{
-    font-size: 14px;
+    font-size: 1.4rem;
     text-align: justify;
 }
 
@@ -87,7 +95,7 @@
 }
 
 .titulo{
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: bold;
     margin-bottom: 16px;
 }
@@ -141,7 +149,7 @@
 
 .icon1 h4, .icon2 h4{
     font-weight: lighter;
-    font-size: 12px;
+    font-size: 1.2rem;
     color: whitesmoke;
     text-shadow: 5px 5px 3px black;
 }
@@ -156,7 +164,6 @@
 .conteudo-features{
     flex-direction: column;
     text-align: center;
-    margin-top: 50px;
 }
 
 .titulo-features b{
@@ -188,13 +195,13 @@
 }
 
 .features h1{
-    font-size: 15px;
+    font-size: 1.5rem;
     margin-top: 10px;
 }
 
 .features p{
     margin-top: 10px;
-    font-size: 12px;
+    font-size: 1.2rem;
     text-align: justify;
 }
 
@@ -217,13 +224,13 @@
 }
 
 .titulo-banner-meio h1{
-    font-size: 24px;
+    font-size: 2.4rem;
     padding-top: 60px;
     padding-bottom: 10px;
 }
 
 .titulo-banner-meio h4{
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .titulo-banner-meio b{
@@ -268,7 +275,7 @@
 
 .caracteristicas-relogio h5{
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1.6rem;
     margin-bottom: 30px;
 }
 
@@ -296,7 +303,7 @@
 
 .mais-utilidades h1{
     padding: 30px;
-    font-size: 28px;
+    font-size: 2.8rem;
 }
 
 .mais-utilidades h1 b{
@@ -385,4 +392,61 @@ footer{
 .redes-sociais img{
     width: 40px;
     margin-right: 10px;
+}
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 50%;
+    }
+    .informations{
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .conteudo-meio{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 10%;
+    }
+
+    .img-banner img {
+        display: none;
+    }
+    .titulo-features{
+       margin-bottom: 10rem;
+    }
+
+    .feature{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 12px;
+    }
+
+    .core-features{
+        height:100vh;
+    }
+    .img-banner-meio img{
+        padding-bottom: 5rem;
+    }
+    .img-utilidades{
+        width: 70%;
+    }
+}
+
+@media (max-width: 425px) {
+    .img-utilidades img{
+        width: 50px;
+    }
+    .img-utilidades{
+        width: auto;
+        flex-wrap: nowrap;
+    }
+    .features{
+        flex-wrap: wrap;
+    }
+    .conteudo-meio{
+        width: 100%;
+    }
+    
 }
