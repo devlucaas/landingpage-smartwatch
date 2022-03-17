@@ -448,7 +448,7 @@ footer{
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 572px) {
     .menu-content{
         justify-content: space-between;
         background-color: rgba(0, 0, 0, 0.5);
