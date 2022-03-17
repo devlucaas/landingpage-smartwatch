@@ -393,10 +393,24 @@ footer{
     width: 40px;
     margin-right: 10px;
 }
+.menuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin: 40px 20px 40px 0px;
+}
+.mm_line{
+    height: 3px;
+    background-color: #c2fe07;
+}
 
 @media (max-width: 1024px) {
+   
+    .img-banner img{
+        width: 90%;
+    }
     html {
-        font-size: 50%;
+        font-size:50%;
     }
     .informations{
         padding-left: 50px;
@@ -435,6 +449,26 @@ footer{
 }
 
 @media (max-width: 425px) {
+    .menu-content{
+        justify-content: space-between;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .logo{
+        font-size: 4.5rem;
+        margin-left: 20px;
+    }
+    .conteudo-inicial{
+        height: 110vh;
+    }
+    .informations{
+        padding: 0;
+    }
+    .conteudo-meio{
+        padding-top: 0px;
+    }
+    .icon1,.icon2{
+        margin: 50px 0px;
+    }
     .img-utilidades img{
         width: 50px;
     }
@@ -442,11 +476,124 @@ footer{
         width: auto;
         flex-wrap: nowrap;
     }
+    .titulo-features h1{
+        margin: 10px;
+    }
     .features{
-        flex-wrap: wrap;
+        width: 100vw;
     }
-    .conteudo-meio{
-        width: 100%;
+    .features p{
+        display: none;
     }
-    
+
+    .text-banner-inicio{
+        width: 300px;
+    }
+    .titulo-banner-meio{
+        margin: 0px 50px 50px;
+    }
+    .banner-meio{
+        height: auto;
+    }
+    .informations-banner-meio{
+        flex-direction: column;
+    }
+    .caracteristicas-relogio{
+        flex-direction: row;
+    }
+    .exercicio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 12px;
+    }
+    .exercicio img{
+        margin-bottom: 12px;
+    }   
+    .ultimo-conteudo{
+        height: auto;
+    }
+    .img-utilidades{
+        width: auto;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .divs-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .menu nav ul{
+        flex-direction: column;
+        float: none;
+        display: none;
+        position: absolute;
+        right: 0;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(5px);
+        padding: 0px 0px 12px 15px;
+        border-radius: 10px;
+    }
+
+    .menu nav ul li{
+        font-size: 2.3rem;
+        padding: 10px;
+    }
+
+    .menuMobile{
+        display: flex;
+       justify-content: space-around;
+       flex-direction: column; 
+    }
+    .copyright{
+        flex-direction: column;
+    }
+    .redes-sociais{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 375px){
+    .core-features{
+        height: auto;
+    }
+    .features{
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .titulo-features{
+        margin: 30px 10px;
+    }
+    footer{
+        display: block;
+    }
+    .divs-footer{
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+    .divs-footer h3{
+        padding-bottom: 5px;
+    }
+    .conteudo-final{
+        padding-top: 50px;
+    }
+    .atendimento{
+        padding-bottom: 20px;
+    }
+    .dados{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .copyright{
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+    .copyright h6{
+        font-size: 1.2rem;
+
+    }
 }

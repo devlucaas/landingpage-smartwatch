@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="Stylesheet"  href="assets/style.css">
     <link rel="shortcut icon" href="assets/img/relogio.favicon.png" type="image/x-icon">
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                document.querySelector(".menu nav ul").style.display ='none';
+            } else{
+                document.querySelector(".menu nav ul").style.display = 'flex';
+            }
+        });
+    }
+    </script>
     <title>Smartwatch</title>
     
 </head>
@@ -16,14 +27,21 @@
                 <div class="logo">
                     <span class="logo1">RE</span><span class="logo2">WATCH</span>
                 </div>
-                <nav class="menu">
-                    <ul>
-                        <li>Home</li>
-                        <li>Rastreamento</li>
-                        <li>Depoimentos</li>
-                        <li>Login</li>
-                    </ul>
-                </nav>
+                <div class="menu">
+                    <nav class="menunav">
+                        <div class="menuMobile">
+                            <div class="mm_line"></div>
+                            <div class="mm_line"></div>
+                            <div class="mm_line"></div>
+                        </div>
+                        <ul>
+                            <li>Home</li>
+                            <li>Rastreamento</li>
+                            <li>Depoimentos</li>
+                            <li>Login</li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </header>
         <div class="conteudo-meio">
@@ -89,16 +107,19 @@
                 <div class="caracteristicas-relogio">
                     <div class="exercicio">
                         <img src="assets/img/ciclismo.png">
+                        <h5>Ciclismo</h5>
                     </div>
-                    <h5>Ciclismo</h5>
+
                     <div class="exercicio">
                         <img src="assets/img/yoga.png">
+                        <h5>Yoga</h5>
                     </div>
-                    <h5>Yoga</h5>
+                
                     <div class="exercicio">
                         <img src="assets/img/corda.png">
+                        <h5>Pula-corda</h5>
                     </div>
-                    <h5>Pula-corda</h5>
+                   
                 </div>
 
                 <div class="img-banner-meio">
@@ -108,16 +129,19 @@
                 <div class="caracteristicas-relogio">
                     <div class="exercicio">
                         <img src="assets/img/remada.png">
+                        <h5>Remada</h5>
                     </div>
-                    <h5>Remada</h5>
+                    
                     <div class="exercicio">
                         <img src="assets/img/esteira.png">
+                        <h5>Esteira</h5>
                     </div>
-                    <h5>Esteira</h5>
+                    
                     <div class="exercicio">
                         <img src="assets/img/corrida.png">
+                        <h5>Corrida</h5>
                     </div>
-                    <h5>Corrida</h5>
+                
                 </div>
             </div>
     </section>
@@ -160,15 +184,15 @@
                 </ul>
             </div>
             <div class="divs-footer">
-                <h3>Ajuda e Suporte</h3>
+                <h3>Suporte</h3>
                 <ul>
                     <a><li>Fale Conosco</li></a>
                     <a><li>Sobre nós</li></a>
                     <a><li>Conheça nossos parceiros</li></a>
                 </ul>
             </div>
-            <div class="Atendimento divs-footer">
-                <h3>Atendimento e Televendas</h3>
+            <div class="atendimento divs-footer">
+                <h3>Atendimento</h3>
                 <div class="dados">
                     <img src="assets/img/localizacao.png">
                     <div class="endereco">
