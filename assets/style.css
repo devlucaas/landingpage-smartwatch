@@ -470,6 +470,10 @@ body{
     .informations{
         padding: 0;
     }
+    .informations p{
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
     .conteudo-meio{
         padding-top: 0px;
     }
@@ -573,9 +577,7 @@ body{
     .beneficios{
         padding-top: 20px;
     }
-    .informations p{
-        padding-top: 30px;
-    }
+
     footer{
         flex-direction: column;
     }
@@ -587,6 +589,10 @@ body{
 
 @media (max-width: 400px){
     .conteudo-inicial{
+        justify-content: center;
+    }
+    .menu-content{
+        justify-content: space-between;
         position: absolute;
         top: 0;
         width: 100%;
