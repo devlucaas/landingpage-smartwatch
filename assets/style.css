@@ -123,12 +123,7 @@ body {
 
 .img-banner img{
     border-radius: 100%;
-    transition: 1s;
     filter: drop-shadow(0 0 0.2em #7c7c7c);
-}
-
-.img-banner  img:hover {
-    transform: scale(1.08);
 }
 
 .beneficios{
@@ -260,13 +255,11 @@ body {
 .img-banner-meio img{
     height: 530px;
     filter: drop-shadow(0 0 0.3em black);
-
 }
 
 .img-banner-meio:hover{
     transform: scale(1.1);
     filter: drop-shadow(0 0 0.5em black);
-
 }
 
 .informations-banner-meio{
@@ -411,6 +404,9 @@ footer{
     height: 3px;
     background-color: #c2fe07;
 }
+body{
+    overflow-x: hidden;
+}
 
 @media (max-width: 1057px) {
    
@@ -426,10 +422,13 @@ footer{
 }
 
 @media (max-width: 768px) {
+    .conteudo-inicial{
+        justify-content: space-evenly;
+    }
     .conteudo-meio{
         flex-direction: column;
         text-align: center;
-        padding-top: 10%;
+        
     }
 
     .img-banner img {
@@ -457,6 +456,9 @@ footer{
 }
 
 @media (max-width: 572px) {
+    .conteudo-inicial{
+        justify-content: flex-start;
+    }
     .menu-content{
         justify-content: space-between;
         background-color: rgba(0, 0, 0, 0.5);
@@ -464,9 +466,6 @@ footer{
     .logo{
         font-size: 4.5rem;
         margin-left: 20px;
-    }
-    .conteudo-inicial{
-        height: 110vh;
     }
     .informations{
         padding: 0;
@@ -485,11 +484,11 @@ footer{
         flex-wrap: nowrap;
     }
     .titulo-features h1{
-        margin: 10px;
+        margin: 0px 20px 0px 20px;
     }
     .features{
         width: 100vw;
-        padding: 0px 10px 0px 10px;
+        padding: 0px 12px 0px 12px;
     }
     .features p{
         display: none;
@@ -533,6 +532,7 @@ footer{
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        margin: 10px;
     }
 
     .menu nav ul{
@@ -576,6 +576,12 @@ footer{
 }
 
 @media (max-width: 375px){
+    .img-banner-meio img{
+        width: 100%;
+    }
+    .img-banner  img:hover {
+        transform: scale(0);
+    }
     .core-features{
         height: auto;
     }
@@ -605,6 +611,9 @@ footer{
     .dados{
         justify-content: flex-start;
         align-items: flex-start;
+    }
+    .divs-footer{
+        margin: 0;
     }
     .copyright{
         font-size: 1.2rem;
