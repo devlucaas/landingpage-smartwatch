@@ -455,7 +455,7 @@ body{
     }
 }
 
-@media (max-width: 572px) {
+@media (max-width: 425px) {
     .conteudo-inicial{
         justify-content: flex-start;
     }
@@ -474,7 +474,10 @@ body{
         padding-top: 0px;
     }
     .icon1,.icon2{
-        margin: 50px 0px;
+        margin: 0px;
+    }
+    .core-features{
+        justify-content: space-around;
     }
     .img-utilidades img{
         width: 50px;
@@ -488,7 +491,7 @@ body{
     }
     .features{
         width: 100vw;
-        padding: 0px 12px 0px 12px;
+        padding: 0px 15px 0px 15px;
     }
     .features p{
         display: none;
@@ -572,6 +575,13 @@ body{
     }
     .informations p{
         padding-top: 30px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .divs-footer{
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 
