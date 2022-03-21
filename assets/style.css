@@ -586,6 +586,10 @@ body{
 }
 
 @media (max-width: 400px){
+    .conteudo-inicial{
+        height: auto;
+        padding-bottom: 70px;
+    }
     .img-banner-meio img{
         width: 100%;
     }
@@ -599,7 +603,6 @@ body{
     .titulo-features{
         margin: 30px 10px;
     }
-   
     .divs-footer{
         padding-top: 20px;
         padding-bottom: 0px;
