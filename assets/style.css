@@ -587,8 +587,9 @@ body{
 
 @media (max-width: 400px){
     .conteudo-inicial{
-        height: auto;
-        padding-bottom: 70px;
+        position: absolute;
+        top: 0;
+        width: 100%;
     }
     .img-banner-meio img{
         width: 100%;
