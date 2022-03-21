@@ -585,12 +585,9 @@ body{
     }
 }
 
-@media (max-width: 375px){
+@media (max-width: 400px){
     .img-banner-meio img{
         width: 100%;
-    }
-    .img-banner  img:hover {
-        transform: scale(0);
     }
     .core-features{
         height: auto;
@@ -602,9 +599,7 @@ body{
     .titulo-features{
         margin: 30px 10px;
     }
-    footer{
-        display: block;
-    }
+   
     .divs-footer{
         padding-top: 20px;
         padding-bottom: 0px;
